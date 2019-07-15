@@ -1,0 +1,70 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\npython --version",
+      "user": "anonymous",
+      "dateUpdated": "2019-06-28 17:43:44.004",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Python 2.7.13 :: Continuum Analytics, Inc.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1561743811859_-1249283432",
+      "id": "20190628-174331_1169512166",
+      "dateCreated": "2019-06-28 17:43:31.859",
+      "dateStarted": "2019-06-28 17:43:44.101",
+      "dateFinished": "2019-06-28 17:43:44.163",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-06-28 17:43:44.006",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1561743824004_1359082662",
+      "id": "20190628-174344_1996363421",
+      "dateCreated": "2019-06-28 17:43:44.004",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "NBA_v1",
+  "id": "2EG7WYRHG",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "python:shared_process": [],
+    "sh:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}

@@ -1,0 +1,27 @@
+create database if not exists adrian_villegas_mazo;
+
+use adrian_villegas_mazo;
+
+create table nba_players (
+        player_id int,
+        jersey_number int,
+        position string,
+        birthdate string,
+        age int,
+        rookie string,
+        team_id int,
+        team_abbr string,
+        team_city string,
+        team_name string,
+        games_played int,
+        fg2_pt_att int,
+        fg2_pt_made int,
+        fg3_pt_att int,
+        fg3_pt_made int,
+        ft_att int,
+        ft_made int,
+        full_name string)
+
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t'
+LOCATION '/user/adrian_villegas_mazo/nba_players/';

@@ -1,0 +1,145 @@
+{
+  "paragraphs": [
+    {
+      "text": "%sh\npython --version",
+      "user": "anonymous",
+      "dateUpdated": "2019-06-28 17:42:31.971",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 85.0,
+              "optionOpen": false
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Python 2.7.13 :: Continuum Analytics, Inc.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1561743393911_-2099268739",
+      "id": "20190628-173633_843502283",
+      "dateCreated": "2019-06-28 17:36:33.911",
+      "dateStarted": "2019-06-28 17:42:32.086",
+      "dateFinished": "2019-06-28 17:42:32.151",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\npip install pyhive\npip install pandas as pd\npip install numpy as np\npip install matplotlib.pyplot as plt\npip install seaborn as sns",
+      "user": "anonymous",
+      "dateUpdated": "2019-06-28 17:39:46.548",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1561742059045_-1679611837",
+      "id": "20190628-171419_1001501295",
+      "dateCreated": "2019-06-28 17:14:19.045",
+      "dateStarted": "2019-06-28 17:36:11.175",
+      "dateFinished": "2019-06-28 17:36:24.182",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\nimport sys\nprint (sys.version)",
+      "user": "anonymous",
+      "dateUpdated": "2019-06-28 17:40:36.735",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "3.5.2 (default, Nov 23 2017, 16:37:01) \n[GCC 5.4.0 20160609]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1561743433468_-640841718",
+      "id": "20190628-173713_31062750",
+      "dateCreated": "2019-06-28 17:37:13.468",
+      "dateStarted": "2019-06-28 17:40:36.847",
+      "dateFinished": "2019-06-28 17:40:36.889",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%python\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-06-28 17:40:36.739",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1561743636735_768173885",
+      "id": "20190628-174036_2067698170",
+      "dateCreated": "2019-06-28 17:40:36.736",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "~Trash/NBA",
+  "id": "2EEUEC1ZU",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "sh:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}

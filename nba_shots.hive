@@ -1,0 +1,21 @@
+create database if not exists adrian_villegas_mazo;
+
+use adrian_villegas_mazo;
+
+create table nba_shots (
+        player_position string,
+        home string,
+        loc_x float,
+        home_team string,
+        shot_type string,
+        points int,
+        away_team string,
+        loc_y float,
+        time string,
+        game_date string,
+        shooter string,
+        quarter int,
+        outcome string)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\t'
+LOCATION '/user/adrian_villegas_mazo/nba_shots/';

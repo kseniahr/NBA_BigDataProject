@@ -1,0 +1,22 @@
+%spark
+val sqlContext = new org.apache.spark.sql.hive.HiveContext(sc)
+val databases = sqlContext.sql("show databases")
+databases.show()
+
+%spark
+val sqlContext = new org.apache.spark.sql.hive.HiveContext(sc)
+sqlContext.sql("use adrian_villegas_mazo")
+val tables = sqlContext.sql("show tables")
+tables.show()
+
+%spark
+val sqlContext = new org.apache.spark.sql.hive.HiveContext(sc)
+sqlContext.sql("use adrian_villegas_mazo")
+val df_players = sqlContext.sql("select * from nba_players")
+df_players.collect()
+
+%spark
+val sqlContext = new org.apache.spark.sql.hive.HiveContext(sc)
+sqlContext.sql("use adrian_villegas_mazo")
+val df_shots = sqlContext.sql("select * from nba_shots")
+df_shots.collect()

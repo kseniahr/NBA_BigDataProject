@@ -137,6 +137,7 @@ def draw_half_court(ax=None, color='black', lw=2, outer_lines=False):
         ax.set_xlabel('')
         ax.set_ylabel('')
         ax.tick_params(labelbottom=True, labelleft=True)
-		#ax.legend(loc='upper center', bbox_to_anchor=(0.5, 1.05), ncol=3, fancybox=True, shadow=True)
-		
+        ax.set_facecolor('w')
+        ax.set_alpha(0.0)
+
         return ax
